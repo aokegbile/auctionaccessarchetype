@@ -28,10 +28,15 @@
       </includes>
     </fileSet>
     <fileSet encoding="UTF-8">
-      <directory></directory>
+      <directory/>
       <includes>
         <include>aa-archetype.iml</include>
       </includes>
     </fileSet>
   </fileSets>
+  <requiredProperties>
+    <requiredProperty key = "package">
+      <defaultValue>com.auctionaccess</defaultValue>
+    </requiredProperty>
+  </requiredProperties>
 </archetype-descriptor>
